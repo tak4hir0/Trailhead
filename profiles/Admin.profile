@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>AccountHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ContactSearch</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>StringArrayTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
