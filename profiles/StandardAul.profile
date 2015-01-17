@@ -5,6 +5,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ContactAndLeadSearch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ContactSearch</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -350,6 +354,10 @@
     <fieldLevelSecurities>
         <editable>true</editable>
         <field>Campaign.Type</field>
+    </fieldLevelSecurities>
+    <fieldLevelSecurities>
+        <editable>true</editable>
+        <field>Campsite__c.Description__c</field>
     </fieldLevelSecurities>
     <fieldLevelSecurities>
         <editable>false</editable>
@@ -1007,6 +1015,18 @@
         <editable>true</editable>
         <field>Task.WhoId</field>
     </fieldLevelSecurities>
+    <fieldLevelSecurities>
+        <editable>true</editable>
+        <field>Trail__c.Description__c</field>
+    </fieldLevelSecurities>
+    <fieldLevelSecurities>
+        <editable>true</editable>
+        <field>Trail__c.Distance__c</field>
+    </fieldLevelSecurities>
+    <fieldLevelSecurities>
+        <editable>true</editable>
+        <field>Trail__c.Last_Inspection_Date__c</field>
+    </fieldLevelSecurities>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -1018,6 +1038,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CampaignMember-Campaign Member Page Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campsite_Reservation__c-Campsite_Reservation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campsite__c-Campsite Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
@@ -1039,6 +1065,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
@@ -1078,6 +1107,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Trail__c-Trail Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -1121,6 +1153,12 @@
     </objectPermissions>
     <objectPermissions>
         <object>Campaign</object>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Campsite_Reservation__c</object>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Campsite__c</object>
     </objectPermissions>
     <objectPermissions>
         <object>Case</object>
@@ -1171,6 +1209,9 @@
     </objectPermissions>
     <objectPermissions>
         <object>Solution</object>
+    </objectPermissions>
+    <objectPermissions>
+        <object>Trail__c</object>
     </objectPermissions>
     <recordTypeVisibilities>
         <default>false</default>
