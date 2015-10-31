@@ -1,1036 +1,1289 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>External_Orders</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Force_com</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AppLauncher</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Chatter</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Community</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Content</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Marketing</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Platform</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sales</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Service</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ServiceConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sites</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Work</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <classAccesses>
-        <apexClass>AccountHandler</apexClass>
+        <apexClass>ChangePasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ContactAndLeadSearch</apexClass>
+        <apexClass>ChangePasswordControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>ContactSearch</apexClass>
+        <apexClass>ForgotPasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>StringArrayTest</apexClass>
+        <apexClass>ForgotPasswordControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <fieldLevelSecurities>
+    <classAccesses>
+        <apexClass>LightningConnectQuickstart</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MyProfilePageController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MyProfilePageControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteLoginController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteLoginControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteRegisterController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SiteRegisterControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestLightningConnectQuickstart</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <custom>true</custom>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountSource</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Active__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.AnnualRevenue</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.BillingAddress</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>false</editable>
-        <field>Account.CleanStatus</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.CustomerPriority__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Customer_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.DandbCompanyId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.DunsNumber</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Fax</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Industry</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Jigsaw</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.NaicsCode</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.NaicsDesc</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.NumberOfEmployees</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.NumberofLocations__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Ownership</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.ParentId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Phone</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Rating</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.SLAExpirationDate__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.SLASerialNumber__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.SLA__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.ShippingAddress</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Sic</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.SicDesc</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Site</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.TickerSymbol</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.Tradestyle</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Type</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.UpsellOpportunity__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Website</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.YearStarted</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.AccountId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.ContactId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.InstallDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.IsCompetitorProduct</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.Price</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.Product2Id</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Asset.ProductCode</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Asset.ProductDescription</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Asset.ProductFamily</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.PurchaseDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.Quantity</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.SerialNumber</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.Status</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Asset.UsageEndDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.ActualCost</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Campaign.AmountAllOpportunities</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Campaign.AmountWonOpportunities</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.BudgetedCost</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.EndDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.ExpectedResponse</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.ExpectedRevenue</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyActualCost</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyAmountAllOpportunities</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyAmountWonOpportunities</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyBudgetedCost</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyExpectedRevenue</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyNumberOfContacts</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyNumberOfConvertedLeads</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyNumberOfLeads</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyNumberOfOpportunities</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyNumberOfResponses</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyNumberOfWonOpportunities</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.HierarchyNumberSent</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.IsActive</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Campaign.NumberOfContacts</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Campaign.NumberOfConvertedLeads</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Campaign.NumberOfLeads</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Campaign.NumberOfOpportunities</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Campaign.NumberOfResponses</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Campaign.NumberOfWonOpportunities</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.NumberSent</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.ParentId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.StartDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.Status</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.Type</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Campsite__c.Description__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.AccountId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.AssetId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>false</editable>
-        <field>Case.BusinessHoursId</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.ClosedDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.ClosedOnCreate</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.ContactId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.EngineeringReqNumber__c</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.IsClosedOnCreate</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.IsEscalated</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Origin</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.ParentId</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.PotentialLiability__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Priority</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Product__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Reason</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.SLAViolation__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SourceId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Subject</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.SuppliedCompany</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.SuppliedEmail</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.SuppliedName</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.SuppliedPhone</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Type</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AccountId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AssistantName</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AssistantPhone</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Birthdate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>false</editable>
-        <field>Contact.CleanStatus</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Department</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.DoNotCall</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Email</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Fax</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.HasOptedOutOfEmail</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.HasOptedOutOfFax</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.HomePhone</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Jigsaw</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Contact.Languages__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.LeadSource</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Contact.Level__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.MailingAddress</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.MobilePhone</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.OtherAddress</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.OtherPhone</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Phone</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.ReportsToId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Title</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contract.ActivatedById</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contract.ActivatedDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.BillingAddress</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.CompanySignedDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.CompanySignedId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.ContractTerm</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.CustomerSignedDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.CustomerSignedId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.CustomerSignedTitle</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contract.EndDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contract.Name</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.OwnerExpirationNotice</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.Pricebook2Id</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contract.ShippingAddress</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.SpecialTerms</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contract.StartDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.IsAllDayEvent</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.Location</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Event.Type</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.WhatId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.WhoId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Attachment</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Status</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Address</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.AnnualRevenue</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>false</editable>
-        <field>Lead.CleanStatus</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.CompanyDunsNumber</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.CurrentGenerators__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.DandbCompanyId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.DoNotCall</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Email</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Fax</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.HasOptedOutOfEmail</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.HasOptedOutOfFax</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Industry</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Jigsaw</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Lead.LastTransferDate</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.LeadSource</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.MobilePhone</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.NumberOfEmployees</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.NumberofLocations__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Phone</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Primary__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.ProductInterest__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Rating</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.SICCode__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Title</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.Website</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.AccountId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Amount</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.CampaignId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.ContractId</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.CurrentGenerators__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.DeliveryInstallationStatus__c</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.ExpectedRevenue</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.IsPrivate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.LeadSource</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.MainCompetitors__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.NextStep</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.OrderNumber__c</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Opportunity.Probability</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.TotalOpportunityQuantity</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.TrackingNumber__c</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Type</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>OpportunityLineItem.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.Discount</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.ListPrice</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.ProductCode</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>OpportunityLineItem.ServiceDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.Subtotal</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>OpportunityLineItem.TotalPrice</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Order.ActivatedById</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Order.ActivatedDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.BillToContactId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.BillingAddress</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.CompanyAuthorizedById</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.CompanyAuthorizedDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Order.ContractEndDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Order.ContractName</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.CustomerAuthorizedById</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.CustomerAuthorizedDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.Name</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Order.OpportunityId</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.OrderReferenceNumber</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.PoDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.PoNumber</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.ShipToContactId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.ShippingAddress</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>false</editable>
-        <field>Order.TotalAmount</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Order.Type</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OrderDetails__x.orderID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderDetails__x.orderLine__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderDetails__x.product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderDetails__x.quantity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderDetails__x.unitPrice__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>OrderItem.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>OrderItem.EndDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>OrderItem.ListPrice</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>OrderItem.OriginalOrderItemId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>OrderItem.ProductCode</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>OrderItem.ServiceDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Orders__x.customerID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Orders__x.orderDate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Orders__x.orderID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Orders__x.shippedDate__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Product2.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Product2.Family</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Product2.ProductCode</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Solution.IsPublished</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Solution.IsPublishedInPublicKb</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Solution.SolutionNote</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.ActivityDate</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.Description</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Task.Type</field>
-        <hidden>true</hidden>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.WhatId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.WhoId</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Trail__c.Description__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Trail__c.Distance__c</field>
-    </fieldLevelSecurities>
-    <fieldLevelSecurities>
-        <editable>true</editable>
-        <field>Trail__c.Last_Inspection_Date__c</field>
-    </fieldLevelSecurities>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
     </layoutAssignments>
@@ -1044,16 +1297,13 @@
         <layout>CampaignMember-Campaign Member Page Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Campsite_Reservation__c-Campsite_Reservation Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Campsite__c-Campsite Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Case-Case %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseInteraction-Case Feed Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact %28Marketing%29 Layout</layout>
@@ -1068,19 +1318,40 @@
         <layout>DandBCompany-D%26B Company Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FeedItem-Feed Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Goal-Goal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GoalLink-Goal Link Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>JobTracker-Job Tracker Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Metric-Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MetricDataLink-Metric Data Link Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity %28Marketing%29 Layout</layout>
@@ -1092,7 +1363,13 @@
         <layout>Order-Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>OrderDetails__x-OrderDetails Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OrderItem-Order Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Orders__x-Orders Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Pricebook2-Price Book Layout</layout>
@@ -1104,7 +1381,10 @@
         <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SocialPersona-Social Persona Layout</layout>
+        <layout>SOSSession-SOS Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SOSSessionActivity-SOS Session Activity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
@@ -1113,129 +1393,226 @@
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Trail__c-Trail Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkCoaching-Coaching Layout</layout>
+        <layout>UserProvAccount-User Provisioning Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkCoaching-Coaching Layout 194</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkFeedback-Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkFeedbackQuestion-Feedback Question Layout</layout>
+        <layout>WorkFeedbackQuestion-Feedback Question Layout - Summer %2715</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkFeedbackQuestionSet-Feedback Question Set Layout</layout>
+        <layout>WorkFeedbackQuestionSet-Feedback Question Set Layout - Summer %2715</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkFeedbackRequest-Feedback Request Layout</layout>
+        <layout>WorkFeedbackRequest-Feedback Request Layout - Summer %2715</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkGoal-Goal Layout</layout>
+        <layout>WorkFeedbackTemplate-Feedback Template Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkGoalCollaborator-Goal Collaborator Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkGoalLink-Goal Link Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WorkPerformanceCycle-Performance Cycle Layout</layout>
+        <layout>WorkPerformanceCycle-Performance Cycle Layout - Summer %2715</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Account</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Asset</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Campaign</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>Campsite_Reservation__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>Campsite__c</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Case</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Contact</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Contract</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>DandBCompany</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>Idea</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Lead</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>Macro</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Opportunity</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <object>Order</object>
-    </objectPermissions>
-    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Pricebook2</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Product2</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Solution</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
-        <object>Trail__c</object>
-    </objectPermissions>
+    <pageAccesses>
+        <apexPage>AnswersHome</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>BandwidthExceeded</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ChangePassword</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Exception</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>FileNotFound</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ForgotPassword</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ForgotPasswordConfirm</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>IdeasHome</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>InMaintenance</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>LightningConnectQuickstart</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>MyProfilePage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteLogin</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteRegister</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteRegisterConfirm</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteTemplate</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>StdExceptionTemplate</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Unauthorized</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>UnderConstruction</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Hello_World</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>MyLightning</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Quickstart</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
@@ -1265,6 +1642,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Pricebook2</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Product2</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -1272,4 +1653,109 @@
         <tab>standard-Solution</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowViewKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AssignTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInternalUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInviteExternalUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterOwnGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ConvertLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateCustomizeFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DistributeFromPersWksp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditEvent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditOppLineItemUnitPrice</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTask</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailMass</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailSingle</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExportReport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ImportPersonal</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SendSitRequests</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SubmitMacrosAllowed</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewHelpLink</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
 </Profile>
