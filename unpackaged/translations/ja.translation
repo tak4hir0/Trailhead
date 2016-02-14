@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Battle Station Construction --></label>
+        <name>Battle_Station_Construction</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- External Orders --></label>
+        <name>External_Orders</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Force.com --></label>
+        <name>Force_com</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- 勤怠管理 --></label>
+        <name>QuickCreateTabset</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Not Protected --></label>
+        <name>cl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Protected --></label>
+        <name>cl_p</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Hello World --></label>
+        <name>Hello_World</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- LP --></label>
+        <name>LP</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Metadata Browser --></label>
+        <name>MetadataBrowser</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Metadata Deploy Demo --></label>
+        <name>MetadataDeployDemo</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Metadata Retrieve Demo --></label>
+        <name>MetadataRetrieveDemo</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- MyLightning --></label>
+        <name>MyLightning</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- forceInput --></label>
+        <name>forceInput</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- inputField --></label>
+        <name>inputField</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- recordEdit --></label>
+        <name>recordEdit</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- recordView --></label>
+        <name>recordView</name>
+    </customTabs>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- （deprecated）主オブジェクトが取引先責任者 --></description>
+        <label><!-- （deprecated）主オブジェクトが取引先責任者 --></label>
+        <name>CustomReportTypeContact</name>
+        <sections>
+            <label><!-- 取引先責任者 --></label>
+            <name>取引先責任者</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- （deprecated）サイト --></description>
+        <label><!-- （deprecated）サイト --></label>
+        <name>CustomReportTypeSite</name>
+        <sections>
+            <label><!-- サイト --></label>
+            <name>サイト</name>
+        </sections>
+    </reportTypes>
+</Translations>

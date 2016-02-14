@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>cl</fullName>
+        <language>ja</language>
+        <protected>false</protected>
+        <shortDescription>Not Protected</shortDescription>
+        <value>Y</value>
+    </labels>
+    <labels>
+        <fullName>cl_p</fullName>
+        <language>ja</language>
+        <protected>true</protected>
+        <shortDescription>Protected</shortDescription>
+        <value>Y</value>
+    </labels>
+</CustomLabels>

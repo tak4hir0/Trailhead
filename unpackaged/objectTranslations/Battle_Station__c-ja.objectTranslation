@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Battle Station --></value>
+    </caseValues>
+    <fields>
+        <label>プロジェクトのステータス</label>
+        <name>Project_Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ウェポンのステータス</label>
+        <name>Weapons_Status__c</name>
+        <picklistValues>
+            <masterLabel>Fully Operational</masterLabel>
+            <translation><!-- Fully Operational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Operational</masterLabel>
+            <translation><!-- Not Yet Operational --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Battle Station Name --></nameFieldLabel>
+</CustomObjectTranslation>

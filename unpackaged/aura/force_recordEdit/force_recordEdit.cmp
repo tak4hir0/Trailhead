@@ -1,0 +1,6 @@
+<aura:component controller="elfL1" implements="flexipage:availableForAllPageTypes,force:appHostable">
+	<aura:handler name="init" value="{!this}" action="{!c.init}"/>
+    <aura:attribute name="Battle_Station" type="Battle_Station__c" default="{ 'sobjectType': 'Battle_Station__c' }"/>
+    <force:recordEdit aura:id="edit" recordId="{!v.Battle_Station.Id}"/>
+	<ui:button label="Save" press="{!c.save}"/>
+</aura:component>

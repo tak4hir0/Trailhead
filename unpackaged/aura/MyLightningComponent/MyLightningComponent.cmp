@@ -1,0 +1,16 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable">
+  <aura:attribute name="task" type="Task" default="{ sobjectType: 'Task' }"/>
+  <force:inputField value="{!v.task.Subject}" />
+  <force:inputField value="{!v.task.Description}" />
+  <force:inputField value="{!v.task.Priority}" />
+  <force:inputField value="{!v.task.ActivityDate}" />
+  <force:inputField value="{!v.task.WhoId}" />
+  <force:inputField value="{!v.task.WhatId}" />
+    <!--h1 class="headline">Hello Lightning Component!</h1>
+    <aura:attribute name="firstName" type="String" default="Steve"/>
+    <div class="container">Hello, {!v.firstName}</div-->
+    <!--aura:attribute name="contact" type="Contact" default="{ 'sobjectType': 'Contact' }"/>
+    <force:inputField aura:id="isvdev__Active__c" value="{!v.contact.isvdev__Active__c}"/-->
+	<!--ui:button label="Save" press="{!c.save}"/>
+	<force:recordEdit aura:id="edit" recordId="00137000006RvOI"/-->
+</aura:component>
