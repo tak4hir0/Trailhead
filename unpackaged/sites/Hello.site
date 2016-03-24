@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowHomePage>false</allowHomePage>
+    <allowStandardAnswersPages>false</allowStandardAnswersPages>
+    <allowStandardIdeasPages>false</allowStandardIdeasPages>
+    <allowStandardLookups>false</allowStandardLookups>
+    <allowStandardSearch>false</allowStandardSearch>
+    <authorizationRequiredPage>metadatabrowser</authorizationRequiredPage>
+    <bandwidthExceededPage>metadatabrowser</bandwidthExceededPage>
+    <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
+    <fileNotFoundPage>metadatabrowser</fileNotFoundPage>
+    <genericErrorPage>metadatabrowser</genericErrorPage>
+    <inMaintenancePage>metadatabrowser</inMaintenancePage>
+    <indexPage>metadatabrowser</indexPage>
+    <masterLabel>Hello</masterLabel>
+    <requireHttps>false</requireHttps>
+    <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
+    <siteAdmin>tkawabata+dev1@uhuru.jp</siteAdmin>
+    <siteType>Visualforce</siteType>
+    <subdomain>helloisv-developer-edition</subdomain>
+</CustomSite>

@@ -66,10 +66,6 @@
         <name>AutoResponseRules</name>
     </types>
     <types>
-        <members>Internal Community</members>
-        <name>Community</name>
-    </types>
-    <types>
         <members>Battle_Station_Construction</members>
         <members>External_Orders</members>
         <members>Force_com</members>
@@ -153,6 +149,10 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>Hello</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>Battle_Station__c</members>
         <members>Hello_World</members>
         <members>LP</members>
@@ -167,16 +167,16 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Case</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
         <members>OrderDB</members>
         <name>ExternalDataSource</name>
     </types>
     <types>
         <members>LP</members>
         <name>FlexiPage</name>
-    </types>
-    <types>
-        <members>DE Default</members>
-        <name>HomePageLayout</name>
     </types>
     <types>
         <members>sf_com_apps</members>
@@ -325,6 +325,10 @@
         <members>VPNorthAmericanSales</members>
         <members>WesternSalesTeam</members>
         <name>Role</name>
+    </types>
+    <types>
+        <members>tak4hir0_dev_ed_SAML_SSO_Setting</members>
+        <name>SamlSsoConfig</name>
     </types>
     <types>
         <members>Account</members>
