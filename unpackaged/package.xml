@@ -93,6 +93,7 @@
         <members>Activity</members>
         <members>Asset</members>
         <members>AssistantProgress</members>
+        <members>BarcodeAccessToken__c</members>
         <members>Battle_Station__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
@@ -139,6 +140,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>BarcodeAccessToken__c-en_US</members>
         <members>Battle_Station__c-en_US</members>
         <members>Battle_Station__c-ja</members>
         <members>OrderDetails__x-en_US</members>
@@ -358,6 +360,7 @@
         <members>Account</members>
         <members>Asset</members>
         <members>AssistantProgress</members>
+        <members>BarcodeAccessToken__c</members>
         <members>Battle_Station__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
